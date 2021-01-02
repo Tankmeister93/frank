@@ -1,0 +1,29 @@
+[
+  {
+    "packageFamilyName": "Microsoft.OfficeHelper_8wekyb3d8bbwe",
+    "paths": [ "/:w:*", "/:x:*", "/:p:*" ],
+    "allowSubdomains": true,
+    "disableFromBrowser": true
+  },
+  {
+    "packageFamilyName": "Microsoft.Office.Excel_8wekyb3d8bbwe",
+    "paths": [ "/*.csv", "/*.ods","/*.xls", "/*.xlsb", "/*.xlsm", "/*.xlsx", "/:x:*" ],
+    "allowSubdomains": true
+  },
+  {
+    "packageFamilyName": "Microsoft.Office.PowerPoint_8wekyb3d8bbwe",
+    "paths": [ "/*.odp", "/*.pot", "/*.potm", "/*.potx", "/*.ppa", "/*.ppam", "/*.pps", "/*.ppsm", "/*.ppsx", "/*.ppt", "/*.pptm", "/*.pptx", "/*.pwz", "/:p:*" ],
+    "allowSubdomains": true
+  },
+  {
+    "packageFamilyName": "Microsoft.Office.Word_8wekyb3d8bbwe",
+    "paths": [ "/*.doc", "/*.docm", "/*.docx", "/*.odt", "/*.rtf", "/:w:*" ],
+    "allowSubdomains": true
+  },
+  {
+    "packageFamilyName": "Microsoft.Office.Desktop_8wekyb3d8bbwe",
+    "paths": [ "/:w:*", "/:x:*", "/:p:*" ],
+    "allowSubdomains": true,
+    "disableFromBrowser": true
+  }
+]

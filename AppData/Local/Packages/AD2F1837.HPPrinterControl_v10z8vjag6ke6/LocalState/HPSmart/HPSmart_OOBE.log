@@ -1,0 +1,15 @@
+HPSmart.log::07:42:29.875	-    ( ISum  )	Ctx: other  |App.xaml:HandleAppLaunch|TID:5|	HandleAppLaunch MainThread:2 launchArgs = 
+HPSmart.log::07:42:29.875	-    ( ----> )	Ctx: other  |App.xaml:HandleAppLaunch|TID:3|	HandleAppLaunch - Log Just Initialized - _uriLaunchParams are 
+HPSmart.log::07:42:29.883	-    ( ISum  )	Ctx: other  |App.xaml:HandleAppLaunch|TID:3|	CommonConventionsPerServer init; 
+HPSmart.log::07:42:30.000	-    ( ISum  )	Ctx: other  |App.xaml:HandleAppLaunch|TID:3|	Gotham Version is 105.1.623
+HPSmart.log::07:42:30.179	-      ( ISum  )	Ctx: other  |App.xaml:HandleAppLaunch|TID:5|	AppData version = 0
+HPSmart.log::07:42:30.181	-      ( ISum  )	Ctx: other  |App.xaml:SetVersionHandler|TID:4|	App:SetVersionHandler - upgrading from 0 to 1
+HPSmart.log::07:42:30.182	-      ( ISum  )	Ctx: other  |App.xaml:SetVersionHandler|TID:4|	App:SetVersionHandler - upgrading from 0 to 2
+HPSmart.log::07:42:30.196	-        ( ISum  )	Ctx: other  |DeviceManager:SaveApplicationDevicesAsync|TID:7|	0 items in DM, deleting file RecentDeviceList.xml & SelectedDeviceID.xml
+HPSmart.log::07:42:30.198	-      ( ISum  )	Ctx: other  |App.xaml:SetVersionHandler|TID:10|	App:SetVersionHandler - upgrading from 0 to 3
+HPSmart.log::07:42:30.199	-      ( ISum  )	Ctx: other  |App.xaml:SetVersionHandler|TID:10|	App:SetVersionHandler - upgrading from 0 to 4
+HPSmart.log::07:42:30.249	-        ( ISum  )	Ctx: other  |App.xaml:SetVersionHandler|TID:10|	App:SetVersionHandler - upgrading from 0 to 5
+HPSmart.log::07:42:30.561	-        ( ISum  )	Ctx: other  |App.xaml:HandleAppLaunch|TID:10|	BEFORE Window.Current.Bounds = 1024x768 set windowingMode=Auto
+HPSmart.log::07:42:30.569	-        ( ISum  )	Ctx: other  |App.xaml:HandleAppLaunch|TID:4|	Window.Current.Bounds = 1024x768 set windowingMode=Auto
+HPSmart.log::07:42:30.697	-        ( <---- )	Ctx: other  |App.xaml:HandleAppLaunch|TID:9|	HandleAppLaunch
+HPSmart.log::07:42:31.813	-  ( ISum  )	Ctx: other  |OwsCommunications:InitializeLogonService|TID:9|	InitializeLogonService to HPID

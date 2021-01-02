@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PdsmqConfig version="4.0">
+  <UserOptIn>False</UserOptIn>
+  <AppDeployedUuid>d897cb2e-a113-45b8-9fde-ef144c526e23</AppDeployedUuid>
+  <OnRamp>/start_app/unknown</OnRamp>
+</PdsmqConfig>

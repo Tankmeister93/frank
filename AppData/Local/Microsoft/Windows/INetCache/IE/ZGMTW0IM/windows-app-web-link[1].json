@@ -1,0 +1,24 @@
+[
+  {
+    "packageFamilyName": "Microsoft.OfficeHelper_8wekyb3d8bbwe",
+    "paths": [ "/w/*", "/x/*", "/p/*" ],
+    "disableFromBrowser": true
+  },
+  {
+    "packageFamilyName": "Microsoft.Office.Excel_8wekyb3d8bbwe",
+    "paths": [ "/x/*" ]
+  },
+  {
+    "packageFamilyName": "Microsoft.Office.PowerPoint_8wekyb3d8bbwe",
+    "paths": [ "/p/*" ]
+  },
+  {
+    "packageFamilyName": "Microsoft.Office.Word_8wekyb3d8bbwe",
+    "paths": [ "/w/*" ]
+  },
+  {
+    "packageFamilyName": "Microsoft.Office.Desktop_8wekyb3d8bbwe",
+    "paths": [ "/w/*", "/x/*", "/p/*" ],
+    "disableFromBrowser": true
+  }
+]
