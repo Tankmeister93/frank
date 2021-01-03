@@ -1,0 +1,5 @@
+CACHE MANIFEST
+# 0e827e03bc3fbc8d8ea1
+
+NETWORK:
+*

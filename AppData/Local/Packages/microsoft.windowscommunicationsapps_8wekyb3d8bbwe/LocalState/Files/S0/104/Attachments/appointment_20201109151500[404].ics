@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Dolphin Imaging and Management Solutions//Dolphin Management//EN
+BEGIN:VEVENT
+UID:a0d88fd2-dffb-418e-952b-8348542e1c0a@dolphinmanagement
+DTSTAMP:20201107T190059Z
+ORGANIZER;CN=Gibb Orthodontics:MAILTO:info@gibborthodontics.com
+DTSTART:20201109T221500Z
+DTEND:20201109T224500Z
+LOCATION:#310, 3120 32 Street S, Lethbridge, AB T1K 7B4
+SUMMARY:Dr. Gibb - orthodontic appointment for Frank
+DESCRIPTION:Please contact our office with any questions about your appoint
+ ment.
+
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Appointment Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

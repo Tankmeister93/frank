@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-ca" dir="ltr" manifest="/bundles/v1/edge/latest/manifest.appcache?locale=en-US&market=CA&enableregulatorypsm=0&enablecpsm=0&ishostisolationenforced=0&targetexperience=default&backgroundpreload=1">
+<head data-info="f:msnallexpusers,muidflt12cf,rrriver,intradydhpntp-t,muidflt315cf,pneedge1cf,prg-edge-t-ro1,test-c,bingcollabedge2cf,article5cf,anaheim1cf,jslltelemetry,leadgenctrl,1s-bing-news,prg-edge-bell-c,rhndlmag-t,c-n054d1aaenca,prg-nbell,1s-n184d1aaenca,1s-enca-mg,vebudumu04302020;" data-client-settings="{&quot;env&quot;:&quot;prod&quot;, &quot;aid&quot;:&quot;3EEA5B3D63CD48F7B9DCA5E2F8826059&quot;, &quot;static_page&quot;:&quot;false&quot;, &quot;queryparams&quot;:&quot;?locale=en-US&amp;market=CA&amp;enableregulatorypsm=0&amp;enablecpsm=0&amp;ishostisolationenforced=0&amp;targetexperience=default&amp;backgroundpreload=1&quot;, &quot;apptype&quot;:&quot;edge&quot;, &quot;cbid&quot;:&quot;1&quot;, &quot;pagetype&quot;:&quot;ntp&quot;, &quot;configRootUrl&quot;:&quot;https://assets.msn.com/config/v1/&quot;, &quot;configIndexDocId&quot;:&quot;cms/api/amp/experienceConfigIndex/BBUsYQa&quot;, &quot;feedBaseDomain&quot;:&quot;&quot;, &quot;deviceFormFactor&quot;:&quot;desktop&quot;, &quot;pageGenTime&quot;:&quot;2020-05-03T20:42:58Z&quot;, &quot;featureFlags&quot;:{}, &quot;market&quot;:{}, &quot;locale&quot;:{&quot;language&quot;:&quot;en&quot;, &quot;script&quot;:&quot;&quot;, &quot;market&quot;:&quot;ca&quot;}, &quot;v&quot;:&quot;20200429.156&quot;, &quot;os&quot;:&quot;windows&quot;, &quot;browser&quot;:{&quot;browserType&quot;:&quot;edge&quot;, &quot;version&quot;:&quot;18&quot;, &quot;ismobile&quot;:&quot;false&quot;}, &quot;domain&quot;:&quot;www.msn.com&quot;, &quot;geo_country&quot;:&quot;CA&quot;, &quot;geo_countryname&quot;:&quot;Canada&quot;, &quot;geo_subdivision&quot;:&quot;Alberta&quot;, &quot;geo_zip&quot;:&quot;t4r 2n7&quot;, &quot;geo_city&quot;:&quot;Red Deer&quot;, &quot;geo_lat&quot;:&quot;52.2271&quot;, &quot;geo_long&quot;:&quot;-113.812&quot;}">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft News</title>
+
+
+    
+
+        <script type="text/javascript" nonce="">
+            if(matchMedia("(prefers-color-scheme:dark)").matches){const s=document.createElement("style");document.head.appendChild(s);s.type="text/css";s.appendChild(document.createTextNode("body{background:#242424}"));}
+        </script>
+        <script type="text/javascript" nonce="">
+            !function(){if("hidden"!==document.visibilityState)return;const i=window.requestAnimationFrame,n=window.cancelAnimationFrame;window.requestAnimationFrame=function(i){return setTimeout(i,1)},window.cancelAnimationFrame=function(i){clearTimeout(i)};let e=()=>{"visible"===document.visibilityState&&(window.requestAnimationFrame=i,window.cancelAnimationFrame=n,document.removeEventListener("visibilitychange",e))};document.addEventListener("visibilitychange",e)}();
+        </script>
+
+
+        <script type="text/javascript" nonce="">
+        const _clientSettings = JSON.parse(document.head.dataset.clientSettings);
+
+            const _webWorkerBundle = "/bundles/v1/edge/latest/web-worker.1b2680ad339a1fb716cd.js";
+            const _authCookieName = "aace";
+                function preloadConfigIDB(){const o=window.indexedDB;if(!o)return;const e="Configurations_12",n="IndexedDB-"+e+".",r=window._appTimings||(window._appTimings={});r[n+"open-Start"]=performance.now(),window._idbConfigLookup={};const i=window._idbConfigLookup;let t,s;window._idbConfigReadPromise=new Promise((o,e)=>{t=o,s=e}),window._idbConfigOpenPromise=(()=>{try{const d=o.open("wwConfigs",1);return new Promise((o,c)=>{d.onerror=(()=>{c(new Error("Config IDB preload open failure: "+d.error))}),d.onsuccess=(()=>{r[n+"open-End"]=performance.now();const c=d.result;o(c),r[n+"getAllObjects-Start"]=performance.now();const a=c.transaction(e,"readonly").objectStore(e).openCursor();a.onsuccess=function(){const o=this.result;o?(i[o.key]=o.value,o.continue()):(r[n+"getAllObjects-End"]=performance.now(),t())},a.onerror=(()=>{s(new Error("Config IDB preload read failure"))})}),d.onupgradeneeded=(()=>{d.result.createObjectStore(e)})})}catch(o){return Promise.reject(new Error("Config IDB preload open failure: "+o))}})()}preloadConfigIDB();
+            !function(e,t,o){const n=t,i=o,r="weaSpartanHomeLocation",a="weaPeregrineHomeLocation",c="weaDetectLocation",s="weaPeregrineDetectLocation";let d=null,l=document.head.dataset.info;function p(e){if(!d){const e=document.cookie.split("; ");d={};const t=e&&e.length;for(let o=0;o<t;o++){const t=e[o].split("=");d[t[0].toLocaleLowerCase()]=decodeURIComponent(t[1])}}const t=e.toLocaleLowerCase(),o=d[t];return o&&encodeURIComponent(o)}function g(e,t,o){return e?t+"="+(o||e)+"&":""}function u(e,t){return g(e.env,"env")+g(e.aid,"aid")+g(e.apptype,"apptype")+g(e.pagetype,"pagetype")+g(e.audienceMode,"audienceMode")+g(e.configIndexDocId,"configIndexDocId")+g(e.deviceFormFactor,"deviceFormFactor")+g(e.domain,"domain")+g(e.feedBaseDomain||location.origin,"feedBaseDomain")+g(e.configRootUrl,"configRootUrl")+g(function(e,t){try{const o=parseInt(e),n=parseInt(JSON.parse(localStorage.getItem(`cbid_${t||""}`)));let i;if(o&&!isNaN(o)&&n&&!isNaN(n)&&(i=o>n?o:n),i=i||o||n)return window._cbid=i.toString()}catch(e){console.log("Error getting highest CBID"+e)}}(e.cbid,e.apptype),"cbid")+g(e.os,"os")+g(JSON.stringify(e.locale),"locale")+g(e.geo_lat,"lat")+g(e.geo_long,"long")+("dhp"===e.pagetype||"ntp"===e.pagetype?g(p(r),r)+g(p(c),c):g(p(a),a)+g(p(s),s))+g(JSON.stringify(e.featureFlags),"featureFlags")+g(JSON.stringify(e.browser),"browser")+g(t,"dataInfo")}let w=n+"#"+g(document.getElementsByTagName("html")[0].getAttribute("lang"),"lang")+(g(p(i),"aace","1")+g(p("muid"),"muid")+g(p("child"),"child")+g(p("cbypass"),"cbypass"))+function(){let t,o;if(document.querySelector("[manifest]")){let n=JSON.parse(localStorage.getItem("ac_shd"));if(n){let i=n[e.pagetype];i&&i.clientSettings&&i.info&&(t=i.clientSettings,o=i.info)}}return t&&o||(t=e,o=l),u(t,o)}()+g(performance.timeOrigin,"mainTimeOrigin")+function(){let e=location.search;return e&&e.length?e.substring(1,e.length):""}();window.webWorker=new Worker(w,{name:"web-worker"}),window.webWorkerErrors=[],window.webWorker.onerror=function(e){window.webWorkerErrors.push(e)},window.chrome&&(window.webWorker&&chrome&&chrome.ntpSettingsPrivate&&"function"==typeof chrome.ntpSettingsPrivate.getPref&&chrome.ntpSettingsPrivate.getPref("ntp.news_feed_display",function(e){e&&e.value&&window.webWorker.postMessage({id:"FeedDisplaySetting",type:"command",payload:e.value})}),l&&l.includes("prg-enterpriseblended-t")&&"enterprise"===e.audienceMode&&"edgeChromium"===e.apptype&&new Promise(e=>{window.chrome&&window.chrome.authPrivate?window.chrome.authPrivate.getPrimaryAccountInfo(t=>{t||e("");const o={account_id:t.account_id,account_type:t.account_type,client_id:"d7b530a4-7680-4c23-a8bf-c52c121d2e87",scope_or_resource:"f920ab6b-8a48-4438-9255-1650179a3a0f"};window.chrome.authPrivate.acquireAccessTokenSilently(o,t=>{t.is_success?e(t.access_token):e("")})}):e("")}).then(e=>{window.webWorker.postMessage({id:"FetchMyFeed",type:"command",payload:e})}))}(_clientSettings,_webWorkerBundle,_authCookieName);
+        </script>
+        <script nonce="">
+            const appErrorId=20202;let loggingEndpoint;const Product={mmx:"emmx",edge:"spartan",edgeChromium:"anaheim",hybrid:"spartan"};function onErrorHandler(t){logError("Error when loading bundle: "+t)}function logError(t){const e=getLoggingParameters(t);if(e){const t="https://"+loggingEndpoint+"/c.gif"+formatParams(e),n=new XMLHttpRequest;n.open("GET",t),n.send()}else console.log("data-c-settings not found. "+t)}function getLoggingParameters(t){let e=document.head.getAttribute("data-client-settings");if(e){let n=JSON.parse(e);const r=n.env,o=n.apptype,g=n.pagetype;loggingEndpoint="prod"===r?"otf.msn.com":"udc.amp-test.com";const a=o+"-"+g;return{evt:"app_error","pg.n":"default","pg.p":Product[o],"pg.t":g,mkt:document.getElementsByTagName("html")[0].getAttribute("lang"),errId:appErrorId,errMsg:t,errSource:a}}return null}function formatParams(t){return"?"+Object.keys(t).map(function(e){return e+"="+encodeURIComponent(t[e])}).join("&")}
+        </script>
+
+
+
+    
+        <link rel='dns-prefetch' href='//img-s-msn-com.akamaized.net' crossorigin='use-credentials'><link rel='dns-prefetch' href='//assets.msn.com' crossorigin='use-credentials'><link rel='dns-prefetch' href='//assets.msn.com' crossorigin='anonymous'><link rel='dns-prefetch' href='//api.msn.com' crossorigin='use-credentials'><link rel='dns-prefetch' href='//c.msn.com' crossorigin='use-credentials'><link rel='dns-prefetch' href='//c.bing.com' crossorigin='use-credentials'><link rel='dns-prefetch' href='//sb.scorecardresearch.com' crossorigin='use-credentials'><link rel='dns-prefetch' href='//otf.msn.com' crossorigin='use-credentials'>
+        <link rel='preconnect' href='//img-s-msn-com.akamaized.net' crossorigin='use-credentials'><link rel='preconnect' href='//assets.msn.com' crossorigin='use-credentials'><link rel='preconnect' href='//assets.msn.com' crossorigin='anonymous'><link rel='preconnect' href='//api.msn.com' crossorigin='use-credentials'><link rel='preconnect' href='//c.msn.com' crossorigin='use-credentials'><link rel='preconnect' href='//c.bing.com' crossorigin='use-credentials'><link rel='preconnect' href='//sb.scorecardresearch.com' crossorigin='use-credentials'><link rel='preconnect' href='//otf.msn.com' crossorigin='use-credentials'>
+    
+    
+    
+</head>
+<body>
+    
+
+<div id="root" data-config-indexdocid="cms/api/amp/experienceConfigIndex/BBUsYQa"></div>
+
+
+
+<script src='https://assets.msn.com/bundles/v1/edge/latest/vendors.85a11d5d37db22151476.js' type="text/javascript" onerror="onErrorHandler(this.src)" nonce=""  crossorigin="anonymous"></script>
+<script src='https://assets.msn.com/bundles/v1/edge/latest/microsoft.ca14e0e42269a55e9a43.js' type="text/javascript" onerror="onErrorHandler(this.src)" nonce=""  crossorigin="anonymous"></script>
+<script src='https://assets.msn.com/bundles/v1/edge/latest/common.915cb5b596929014ef08.js' type="text/javascript" onerror="onErrorHandler(this.src)" nonce=""  crossorigin="anonymous"></script>
+<script src='https://assets.msn.com/bundles/v1/edge/latest/experience.25a30eb3eb4cfb4f28ba.js' type="text/javascript" onerror="onErrorHandler(this.src)" nonce=""  crossorigin="anonymous"></script>
+
+
+
+    
+        
+    
+    
+</body>
+
+</html>
