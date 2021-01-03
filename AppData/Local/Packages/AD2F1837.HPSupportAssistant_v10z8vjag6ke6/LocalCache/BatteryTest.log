@@ -8777,3 +8777,76 @@
 2020-12-19 8:37:51 PM: ACPowerOn: TRUE
 2020-12-19 8:37:51 PM: BatteryCount: 1
 2020-12-19 8:37:51 PM: SystemBatterySupport: 1
+2020-12-31 8:10:49 AM: ==================================================================
+2020-12-31 8:10:49 AM: UWP BatteryTest - Version 1.17.2.0 
+2020-12-31 8:10:50 AM: SystemID: 8615
+2020-12-31 8:10:50 AM: BIOS Revision: F.35
+2020-12-31 8:10:50 AM: Product Name: HP Pavilion Laptop 15-cw1xxx
+2020-12-31 8:10:50 AM: FamilyID: 103C_5335KV
+2020-12-31 8:10:50 AM: FamilyType: 2 - Family Consumer Notebook.
+2020-12-31 8:10:50 AM: DetectedBatteryCount: 1
+2020-12-31 8:10:50 AM: BatteryIndex: 0
+2020-12-31 8:10:50 AM: Found WMI Entry: ACPI\PNP0C0A\2&DABA3FF&2
+2020-12-31 8:10:50 AM: batCountSupported = 1
+2020-12-31 8:10:51 AM: GetAdaptiveBatteryExtender() threw an exception 
+2020-12-31 8:10:51 AM: ABE Not Found. 
+2020-12-31 8:10:51 AM: GetAdaptiveBatteryExtenderStatus() threw an exception 
+2020-12-31 8:10:51 AM: ABE Status Not Found. 
+2020-12-31 8:10:51 AM: ACPowerOn: TRUE
+2020-12-31 8:10:51 AM: ACadapterOK: TRUE
+2020-12-31 8:10:52 AM: GetBatteryInfo() first pass retrieved successfully.
+2020-12-31 8:10:52 AM: Battery at Index 0 passed bogus data validation
+2020-12-31 8:10:52 AM: Battery at Index 0 is present
+2020-12-31 8:11:02 AM: Get After 10s ACPowerOn: TRUE
+2020-12-31 8:11:02 AM: Get After 10s ACadapterOK: TRUE
+2020-12-31 8:11:03 AM: GetBatteryInfo() Second pass retrieved successfully.
+2020-12-31 8:11:03 AM: Battery Parameters: 
+2020-12-31 8:11:03 AM: DesignCapacity: 3900[mV]
+2020-12-31 8:11:03 AM: FullChargeCapacity: 3596[mV]
+2020-12-31 8:11:03 AM: RemainingCapacity: 2051[mV]
+2020-12-31 8:11:03 AM: CycleCount: 107
+2020-12-31 8:11:03 AM: Temperature: 37 degrees celsius
+2020-12-31 8:11:03 AM: Voltage: 12329[mV]
+2020-12-31 8:11:03 AM: Current: 1543[mA]
+2020-12-31 8:11:03 AM: DesignVoltage: 11550[mV]
+2020-12-31 8:11:03 AM: StatusWord: 128
+2020-12-31 8:11:03 AM: CellVoltage1: 4120[mV]
+2020-12-31 8:11:03 AM: CellVoltage2: 4122[mV]
+2020-12-31 8:11:03 AM: CellVoltage3: 4127[mV]
+2020-12-31 8:11:03 AM: CellVoltage4: 0[mV]
+2020-12-31 8:11:03 AM: Manufacturer: 333-AC-4F-A
+2020-12-31 8:11:03 AM: SerialNumber: 41278 04/26/2019
+2020-12-31 8:11:03 AM: CTLabel: 6HZHA0A45C3958
+2020-12-31 8:11:03 AM: Current Battery Charge Percentage: 57%
+2020-12-31 8:11:03 AM: BatteryGetPackSupplier() : PackSupplier: PACK_SUPPLIER_MAX
+2020-12-31 8:11:03 AM: BatteryCheckDeepDischargeAndLowVoltage(): Failed getting Battery Pack Supplier.
+2020-12-31 8:11:03 AM: Battery 0  Executing Battery Logical State Test. 
+2020-12-31 8:11:03 AM: Battery state is good.
+2020-12-31 8:11:03 AM: Battery 0  Executing Battery Charge State Test. 
+2020-12-31 8:11:03 AM: Battery Charge is good.
+2020-12-31 8:11:03 AM: Battery 0  Executing Battery Combined Test to get overall result. 
+2020-12-31 8:11:03 AM: Battery state is good.
+2020-12-31 8:11:03 AM: Battery Test Results: 
+2020-12-31 8:11:03 AM:   **uiOverallTestResult: 0
+2020-12-31 8:11:03 AM:   **uiLogicTestResult: 0
+2020-12-31 8:11:03 AM:   **uiChargeTestResult: 0
+2020-12-31 8:11:03 AM: Battery Debug Variables: 
+2020-12-31 8:11:03 AM: BatteryIndex: 0
+2020-12-31 8:11:03 AM: WarrantyLength: 3
+2020-12-31 8:11:03 AM: CalibrationType: 3
+2020-12-31 8:11:03 AM: ChargeControlSupported: 1
+2020-12-31 8:11:03 AM: ChargeTempOk: TRUE
+2020-12-31 8:11:03 AM: ChargeTest: TRUE
+2020-12-31 8:11:03 AM: ChargeCapacity: 92
+2020-12-31 8:11:03 AM: TempAlarm: FALSE
+2020-12-31 8:11:03 AM: DeepDischarge: FALSE
+2020-12-31 8:11:03 AM: FullCharge: FALSE
+2020-12-31 8:11:04 AM: FullChargeStatus: FALSE
+2020-12-31 8:11:04 AM: ACAdapterOK: TRUE
+2020-12-31 8:11:04 AM: BatteryCharge: TRUE
+2020-12-31 8:11:04 AM: DesignCycleCount: 1000
+2020-12-31 8:11:04 AM: LowVoltageDiable: False
+2020-12-31 8:11:04 AM: AdaptiveBatteryOptimizer: Not Supported
+2020-12-31 8:11:04 AM: ACPowerOn: TRUE
+2020-12-31 8:11:04 AM: BatteryCount: 1
+2020-12-31 8:11:04 AM: SystemBatterySupport: 1
